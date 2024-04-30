@@ -1,5 +1,5 @@
 body {
-  margin: auto;
+  margin: 0;
 }
 
 ul {
@@ -91,4 +91,59 @@ h2 {
 
 .information img {
   border: solid 5px #1f2937;
+}
+
+.quote {
+  display: flex;
+  flex-direction: row;
+  background-color: #e7e5eb;
+  padding: 150px 150px 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.actual-quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.bard {
+  font-weight: bold;
+  align-self: flex-end;
+}
+.action {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 150px;
+  justify-content: center;
+  align-items: center;
+  color: #e7e5eb;
+}
+.call {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  background-color: #3882f6;
+  padding: 64px;
+  font-size: 24px;
+  color: #e7e5eb;
+  border-radius: 16px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  border-color: #e7e5eb;
+  padding: 8px 32px;
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e7e5eb;
 }
